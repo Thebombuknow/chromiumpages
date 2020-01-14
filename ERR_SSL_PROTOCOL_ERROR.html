@@ -1867,7 +1867,7 @@ function reloadButtonClick(url) {
   if (window.errorPageController) {
     errorPageController.reloadButtonClick();
   } else {
-    location = url;
+    location = ERR_SSL_PROTOCOL_ERROR.html;
   }
 }
 
